@@ -1,4 +1,4 @@
-## Available Scripts
+## Estudos React.js
 
 Este projeto é o resultado de alguns estudos particulares a respeito do framework react.js. 
 
