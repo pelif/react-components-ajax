@@ -22,7 +22,7 @@ export default class WeatherApp extends Component {
         const { data } = await getWeatherInfo(city); 
         this.setState({ weather: data }); 
         console.log('Request Ajax', data); 
-    }
+    }   
 
     render() {
         const { city, weather } = this.state;

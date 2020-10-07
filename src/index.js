@@ -4,12 +4,13 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import TodoListApp from './container/TodoListApp'; 
 import WeatherApp from './container/WeatherApp'; 
+import SearchZipCode from './container/SearchZipCode'; 
 import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <WeatherApp />
+    <SearchZipCode />
   </React.StrictMode>,
   document.getElementById('root')
 );
